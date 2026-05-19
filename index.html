@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Smart Calculator</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
+<body>
+
+  <div class="main-wrapper">
+
+    <!-- Branding -->
+    <div class="branding">
+
+      <h1>
+        Smart <span>Calculator</span>
+      </h1>
+
+      <p>
+        Professional Web Calculator with History
+      </p>
+
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+
+      <!-- Calculator -->
+      <div class="calculator">
+
+        <div class="top-bar">
+
+          <h2>Calculator</h2>
+
+          <button id="historyBtn">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+          </button>
+
+        </div>
+
+        <!-- Display -->
+        <input
+          type="text"
+          id="display"
+          readonly
+          placeholder="0"
+        >
+
+        <!-- Buttons -->
+        <div class="buttons">
+
+          <button class="operator clear">C</button>
+          <button class="operator delete">DEL</button>
+          <button class="operator">%</button>
+          <button class="operator">/</button>
+
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button class="operator">*</button>
+
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button class="operator">-</button>
+
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button class="operator">+</button>
+
+          <button>0</button>
+          <button>.</button>
+          <button id="equals">=</button>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="footer-text">
+          By Raghava
+        </div>
+
+      </div>
+
+      <!-- History Panel -->
+      <div class="history-panel">
+
+        <div class="history-header">
+
+          <h3>Recent Calculations</h3>
+
+          <button id="clearHistory">
+            Clear
+          </button>
+
+        </div>
+
+        <ul id="historyList"></ul>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

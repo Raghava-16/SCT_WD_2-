@@ -65,9 +65,7 @@ To develop a fully functional and interactive calculator application capable of 
 
 - Practiced DOM manipulation and event handling concepts  
 
-## 📸 Project Preview
 
-<img width="100%" alt="Smart Calculator Preview" src="YOUR_SCREENSHOT_LINK_HERE">
 
 ## 🚀 Technologies
 
